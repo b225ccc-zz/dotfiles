@@ -59,6 +59,9 @@ set smartindent                 " see previous comment
 
 set laststatus=2                " needed for powerline|airline
 
+set splitbelow
+set splitright
+
 syntax enable                   " enable syntax highlighting; preferred over 'syntax on'
 
 " NERDTree stuff
@@ -81,3 +84,7 @@ imap jj <ESC>                   " use jj to escape from insert mode
 "au BufRead,BufNewFile *.py set filetype=python
 "au BufRead,BufNewFile *.js set filetype=javascript
 "au BufNewFile,BufReadPost *.jade set filetype=jade
+
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
