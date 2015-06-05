@@ -16,6 +16,8 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
+Plugin 'altercation/vim-colors-solarized'
+
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 " Bundles
@@ -35,7 +37,9 @@ filetype plugin indent on	      " turn filetype detection back on
 
 let mapleader = ","		          " set leader prefix
 
-color wombat		                " set color from ~/.vim/colors/
+
+set background=dark
+colorscheme solarized
 
 set cursorline			            " highlight current line
 set expandtab			              " convert tabs to spaces
