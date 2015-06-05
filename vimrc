@@ -16,6 +16,8 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
 " Bundles
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'    
@@ -77,6 +79,8 @@ let g:UltiSnipsExpandTrigger="<c-e>"
 let g:UltiSnipsJumpForwardTrigger="<c-l>"
 let g:UltiSnipsJumpBackwardTrigger="<c-h>"
 
+
+let g:vim_markdown_folding_disabled=1
 
 " key maps
 nmap <leader>fef ggVG=          " format entire file
