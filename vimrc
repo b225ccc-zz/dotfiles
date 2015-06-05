@@ -54,6 +54,7 @@ set ignorecase                  " ignore case when searching, except...
 set smartcase                   " ... when smartcase is on.  if search term uses caps, then don't ignore case
 set ruler                       " always show current position (needed with powerline?)
 set scrolloff=4                 " keep 4 lines above and below cursor
+set colorcolumn=80              " highlight 80th column
 
 set autoindent                  " indent to current context on newline.  docs indicate smartindent should also be enabled
 set smartindent                 " see previous comment
