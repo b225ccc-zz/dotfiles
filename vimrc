@@ -89,6 +89,8 @@ let g:vim_markdown_folding_disabled=1
 " key maps
 nmap <leader>fef ggVG=          " format entire file
 imap jj <ESC>                   " use jj to escape from insert mode
+nmap <leader>sbl :set background=light          " set light background
+nmap <leader>sbd :set background=dark           " set dark background
 
 "au BufNewFile * set noeol
 "au BufRead,BufNewFile *.py set filetype=python
