@@ -7,5 +7,6 @@
     "indent": 5,
     "quotmark": "single",
     "unused": true,
-    "maxlen": 80
+    "maxlen": 80,
+    "sub": true
 }
