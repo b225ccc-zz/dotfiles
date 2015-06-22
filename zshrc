@@ -9,7 +9,7 @@ prompt suse
 ## nice link: http://www.lowlevelmanager.com/2012/04/zsh-history-extend-and-persist.html
 HISTFILE=$HOME/.zhistory       # enable history saving on shell exit
 HISTSIZE=1200                  # lines of history to maintain memory
-SAVEHIST=1000                  # lines of history to maintain in history file.
+SAVEHIST=10000                 # lines of history to maintain in history file.
 setopt EXTENDED_HISTORY        # save timestamp and runtime information
 setopt HIST_IGNORE_DUPS
 setopt INC_APPEND_HISTORY          # append rather than overwrite history file.
