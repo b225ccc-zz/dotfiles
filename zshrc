@@ -22,6 +22,14 @@ alias l='ls -CF'
 alias repos='cd ~/Documents/repos'
 alias f.='find .'
 
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit'
+alias gca='git commit --all'
+alias gaa='git add -A'
+alias gpull='git pull'
+alias gpush='git push'
+
 fpath=( ~/.zfunc "${fpath[@]}" )
 
 autoload -Uz h
