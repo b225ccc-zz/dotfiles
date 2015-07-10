@@ -87,16 +87,18 @@ let g:UltiSnipsJumpBackwardTrigger="<c-h>"
 let g:vim_markdown_folding_disabled=1
 
 " key maps
-nmap <leader>fef ggVG=          " format entire file
-imap jj <ESC>                   " use jj to escape from insert mode
+nmap <leader>fef ggVG=                          " format entire file
+imap jj <ESC>                                   " use jj to escape from insert mode
 nmap <leader>sbl :set background=light          " set light background
 nmap <leader>sbd :set background=dark           " set dark background
+nmap <leader>r :w \| ! node %<ENTER>            " execute current file
 
 "au BufNewFile * set noeol
 "au BufRead,BufNewFile *.py set filetype=python
 "au BufRead,BufNewFile *.js set filetype=javascript
 "au BufNewFile,BufReadPost *.jade set filetype=jade
 
+" pick up where you left off
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
