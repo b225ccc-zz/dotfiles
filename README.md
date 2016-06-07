@@ -79,6 +79,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    brew cask install dropbox
    brew cask install evernote
    brew cask install flux
+   brew cask install gas-mask
    brew cask install google-chrome
    brew cask install iterm2
    brew cask install itsycal
