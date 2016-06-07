@@ -43,6 +43,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    
    ~~~ sh
    brew install git
+   brew install mosh
    brew install zsh zsh-completions
    ~~~
 
@@ -82,6 +83,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    brew cask install lastpass
    brew cask install little-snitch
    brew cask install slack
+   brew cask install spectacle
    brew cask install spotify
    brew cask install spotify-notifications
    brew cask install sublime-text
