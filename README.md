@@ -59,6 +59,8 @@ https://github.com/olivierverdier/zsh-git-prompt
    chsh -s /usr/local/bin/zsh
    
    ln -s ~/Documents/repos/dotfiles/vimrc ~/.vimrc
+   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+   vim +PluginInstall +qall
    
    # git prompt.  ~/.zshrc references this
    cd ~/Documents/repos
