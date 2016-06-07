@@ -19,6 +19,14 @@ https://github.com/olivierverdier/zsh-git-prompt
 
 ## System bootstrap
 
+1. Get this repo:
+
+   ~~~
+   mkdir ~/Documents/repos && cd $_
+   git clone https://github.com/b225ccc/dotfiles.git
+   cd dotfiles
+   ~~~
+
 1. Install Xcode command line tools (required to install Homebrew)
 2. Install Homebrew
 
@@ -35,14 +43,15 @@ https://github.com/olivierverdier/zsh-git-prompt
    
    ~~~ sh
    brew install git
-   brew install 
+   brew install zsh zsh-completions
+   ~~~
+
+   ~~~ sh
+   ln -s ~/Documents/repos/dotfiles/zshrc ~/.zshrc
+   rm -f ~/.zcompdump; compinit
    ~~~
 
 5. Install Cask apps:
-
-   * flux
-   * google-chrome
-   * 
 
    ~~~
    brew cask install airmail
