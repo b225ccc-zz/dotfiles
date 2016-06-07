@@ -63,3 +63,9 @@ https://github.com/olivierverdier/zsh-git-prompt
    brew cask install totalfinder
    brew cask install vlc
    ~~~
+
+   Run the `little-snitch` installer (note, you need to restart after running the installer):
+   
+   ~~~ sh
+   open /opt/homebrew-cask/Caskroom/little-snitch/3.6.3/Little\ Snitch\ Installer.app
+   ~~~
