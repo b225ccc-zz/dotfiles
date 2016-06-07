@@ -67,6 +67,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    brew cask install alfred
    brew cask install android-file-transfer
    brew cask install appcleaner
+   brew cask install dockertoolbox
    brew cask install doubletwist
    brew cask install dropbox
    brew cask install evernote
