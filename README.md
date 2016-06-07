@@ -59,6 +59,8 @@ https://github.com/olivierverdier/zsh-git-prompt
    brew cask install lastpass
    brew cask install little-snitch
    brew cask install slack
+   brew cask install spotify
+   brew cask install spotify-notifications
    brew cask install sublime-text
    brew cask install totalfinder
    brew cask install vlc
