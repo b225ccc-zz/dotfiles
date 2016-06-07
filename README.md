@@ -52,6 +52,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    rm -f ~/.zcompdump; compinit
    
    ln -s ~/Documents/repos/dotfiles/gitconfig ~/.gitconfig
+   ln -s ~/Documents/repos/dotfiles/gitignore_global ~/.gitignore
    ~~~
 
 5. Install Cask apps:
