@@ -56,6 +56,8 @@ https://github.com/olivierverdier/zsh-git-prompt
    
    echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
    chsh -s /usr/local/bin/zsh
+   
+   ln -s ~/Documents/repos/dotfiles/vimrc ~/.vimrc
    ~~~
 
 5. Install Cask apps:
