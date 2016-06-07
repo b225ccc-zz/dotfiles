@@ -37,6 +37,7 @@ alias glog='git log --oneline'
 alias sp='echo -e "\n\n\n\n\n\n\n\n\n\n\n\n"'
 
 fpath=( ~/.zfunc "${fpath[@]}" )
+fpath=(/usr/local/share/zsh-completions $fpath)
 
 autoload -Uz h
 
@@ -66,4 +67,5 @@ source ~/Documents/repos/zsh-git-prompt/zshrc.sh
 function prompt_char {
   if [ $UID -eq 0 ]; then echo "#"; else echo '>'; fi
 }
-PROMPT='%~$(git_super_status) $(prompt_char) '
+#PROMPT='%~$(git_super_status) $(prompt_char) '
+PROMPT='%{$fg[green]%}%~%{$reset_color%}$(git_super_status) %{$fg[green]%}$(prompt_char)%{$reset_color%} '
