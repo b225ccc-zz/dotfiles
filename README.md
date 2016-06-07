@@ -32,8 +32,10 @@ https://github.com/olivierverdier/zsh-git-prompt
    ~~~
  
 4. Install Homebrew apps:
-
-   * brew install git
+   
+   ~~~ sh
+   brew install git
+   ~~~
 
 4. Install Homebrew apps:
 
