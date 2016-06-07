@@ -53,6 +53,9 @@ https://github.com/olivierverdier/zsh-git-prompt
    
    ln -s ~/Documents/repos/dotfiles/gitconfig ~/.gitconfig
    ln -s ~/Documents/repos/dotfiles/gitignore_global ~/.gitignore
+   
+   echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
+   chsh -s /usr/local/bin/zsh
    ~~~
 
 5. Install Cask apps:
