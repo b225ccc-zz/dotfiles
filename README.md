@@ -58,6 +58,10 @@ https://github.com/olivierverdier/zsh-git-prompt
    chsh -s /usr/local/bin/zsh
    
    ln -s ~/Documents/repos/dotfiles/vimrc ~/.vimrc
+   
+   # git prompt.  ~/.zshrc references this
+   cd ~/Documents/repos
+   git clone https://github.com/olivierverdier/zsh-git-prompt.git
    ~~~
 
 5. Install Cask apps:
