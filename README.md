@@ -85,6 +85,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    brew cask install itsycal
    brew cask install lastpass
    brew cask install little-snitch
+   brew cask install macdown
    brew cask install slack
    brew cask install spectacle
    brew cask install spotify
