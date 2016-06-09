@@ -53,6 +53,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    ~~~ sh
    ln -s ~/Documents/repos/dotfiles/zshrc ~/.zshrc
    ln -s ~/Documents/repos/dotfiles/zfunc ~/.zfunc
+   zsh
    rm -f ~/.zcompdump; compinit
    
    ln -s ~/Documents/repos/dotfiles/gitconfig ~/.gitconfig
