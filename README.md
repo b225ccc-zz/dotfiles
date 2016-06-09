@@ -19,24 +19,27 @@ https://github.com/olivierverdier/zsh-git-prompt
 
 ## System bootstrap
 
+
+1. Install Xcode command line tools (required to install Homebrew)
+
+2. Install Homebrew
+
+   ~~~
+   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   ~~~
+
+3. Modify $PATH to use Homebrew path:
+
+   ~~~ sh
+   echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
+   ~~~
+   
 1. Get this repo:
 
    ~~~
    mkdir ~/Documents/repos && cd $_
    git clone https://github.com/b225ccc/dotfiles.git
    cd dotfiles
-   ~~~
-
-1. Install Xcode command line tools (required to install Homebrew)
-2. Install Homebrew
-
-   ~~~
-   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-   ~~~
-3. Modify $PATH to use Homebrew path:
-
-   ~~~ sh
-   echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
    ~~~
  
 4. Install Homebrew apps:
@@ -84,7 +87,6 @@ https://github.com/olivierverdier/zsh-git-prompt
    brew cask install iterm2
    brew cask install itsycal
    brew cask install lastpass
-   brew cask install little-snitch
    brew cask install macdown
    brew cask install slack
    brew cask install spectacle
