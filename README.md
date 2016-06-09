@@ -74,7 +74,8 @@ https://github.com/olivierverdier/zsh-git-prompt
 5. Install Cask apps:
 
    ~~~
-   brew cask install airmail
+   # i swear airmail was there at one point
+   #brew cask install airmail
    brew cask install alfred
    brew cask install android-file-transfer
    brew cask install appcleaner
