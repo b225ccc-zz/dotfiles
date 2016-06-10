@@ -93,6 +93,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    gas-mask \
    google-chrome \
    istat-menus \
+   java \
    itsycal \
    lastpass \
    macdown \
