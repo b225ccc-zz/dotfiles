@@ -92,6 +92,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    flux \
    gas-mask \
    google-chrome \
+   istat-menus \
    itsycal \
    lastpass \
    macdown \
