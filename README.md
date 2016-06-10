@@ -45,9 +45,11 @@ https://github.com/olivierverdier/zsh-git-prompt
 4. Install Homebrew apps:
    
    ~~~ sh
-   brew install git
-   brew install mosh
-   brew install zsh zsh-completions
+   brew install \
+   git \
+   mosh \
+   zsh \
+   zsh-completions
    ~~~
 
    ~~~ sh
@@ -75,25 +77,28 @@ https://github.com/olivierverdier/zsh-git-prompt
 
    ~~~
    # i swear airmail was there at one point
-   #brew cask install airmail
-   brew cask install alfred
-   brew cask install android-file-transfer
-   brew cask install appcleaner
-   brew cask install dockertoolbox
-   brew cask install doubletwist
-   brew cask install dropbox
-   brew cask install evernote
-   brew cask install flux
-   brew cask install gas-mask
-   brew cask install google-chrome
-   brew cask install iterm2
-   brew cask install itsycal
-   brew cask install lastpass
-   brew cask install macdown
-   brew cask install slack
-   brew cask install spectacle
-   brew cask install spotify
-   brew cask install spotify-notifications
-   brew cask install sublime-text
-   brew cask install vlc
+   #brew cask install airmail && \
+   # iterm2-beta is broken
+   # iterm2-beta
+   
+   brew cask install \
+   alfred \
+   android-file-transfer \
+   appcleaner \
+   dockertoolbox \
+   doubletwist \
+   dropbox \
+   evernote \
+   flux \
+   gas-mask \
+   google-chrome \
+   itsycal \
+   lastpass \
+   macdown \
+   slack \
+   spectacle \
+   spotify \
+   spotify-notifications \
+   sublime-text \
+   vlc
    ~~~
