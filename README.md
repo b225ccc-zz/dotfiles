@@ -71,6 +71,11 @@ https://github.com/olivierverdier/zsh-git-prompt
    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
    vim +PluginInstall +qall
    
+   # complete YouCompleteMe installation
+   cd ~/.vim/bundle/YouCompleteMe
+   git submodule update --init --recursive
+   ./install.py
+   
    # git prompt.  ~/.zshrc references this
    cd ~/Documents/repos
    git clone https://github.com/olivierverdier/zsh-git-prompt.git
