@@ -48,6 +48,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    brew install \
    git \
    mosh \
+   python \
    zsh \
    zsh-completions
    ~~~
@@ -103,4 +104,14 @@ https://github.com/olivierverdier/zsh-git-prompt
    spotify-notifications \
    sublime-text \
    vlc
+   ~~~
+
+6. Install other apps
+
+   ~~~ sh
+   pip install --upgrade pip && \
+   pip install \
+     python-glanceclient \
+     python-novaclient \
+     python-neutronclient
    ~~~
