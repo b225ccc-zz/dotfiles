@@ -46,9 +46,11 @@ https://github.com/olivierverdier/zsh-git-prompt
    
    ~~~ sh
    brew install \
+   cmake \
    git \
    mosh \
    python \
+   vim \
    zsh \
    zsh-completions
    ~~~
