@@ -93,6 +93,7 @@ https://github.com/olivierverdier/zsh-git-prompt
    alfred \
    android-file-transfer \
    appcleaner \
+   crashplan \
    dockertoolbox \
    doubletwist \
    dropbox \
