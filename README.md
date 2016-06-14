@@ -1,21 +1,4 @@
 # dotfiles
-cd ~/Documents/repos
-git clone https://github.com/b225ccc/dotfiles
-
-## vim
-
-* npm install -g jsonlint
-*
-
-for i in $(ls ~/Documents/repos/dotfiles/vim/snippets/javascript); do ln -s ~/Documents/repos/dotfiles/vim/snippets/javascript/$i ~/.vim/bundle/vim-snippets/snippets/javascript/$i; done
-
-# http://evertpot.com/osx-tmux-vim-copy-paste-clipboard/
-brew install reattach-to-user-namespace
-
-https://github.com/olivierverdier/zsh-git-prompt
-
-
-----
 
 ## System bootstrap
 
