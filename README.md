@@ -45,7 +45,7 @@
    rm -f ~/.zcompdump; compinit
    
    ln -s ~/Documents/repos/dotfiles/gitconfig ~/.gitconfig
-   ln -s ~/Documents/repos/dotfiles/gitignore_global ~/.gitignore
+   ln -s ~/Documents/repos/dotfiles/gitignore_global ~/.gitignore_global
    
    echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
    chsh -s /usr/local/bin/zsh
