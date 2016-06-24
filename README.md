@@ -94,7 +94,8 @@
    spotify \
    spotify-notifications \
    sublime-text \
-   vlc
+   vlc \
+   xquartz
    ~~~
 
 6. Install other apps
