@@ -94,6 +94,7 @@
    spotify \
    spotify-notifications \
    sublime-text \
+   subnetcalc \
    vlc \
    xquartz
    ~~~
