@@ -31,9 +31,11 @@
    brew install \
    cmake \
    git \
+   jq \
    mosh \
    python \
    vim \
+   wget \
    zsh \
    zsh-completions
    ~~~
