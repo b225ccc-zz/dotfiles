@@ -90,6 +90,7 @@
    java \
    itsycal \
    lastpass \
+   limechat \
    macdown \
    slack \
    spectacle \
