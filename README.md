@@ -93,6 +93,7 @@
    limechat \
    macdown \
    slack \
+   sourcetree \
    spectacle \
    spotify \
    spotify-notifications \
