@@ -94,15 +94,21 @@
    spotify \
    spotify-notifications \
    sublime-text \
-   vlc
+   vlc \
+   xld
    ~~~
 
 6. Install other apps
 
    ~~~ sh
-   pip install --upgrade pip && \
-   pip install \
+   sudo pip install --upgrade pip && \
+   sudo pip install \
      python-glanceclient \
      python-novaclient \
-     python-neutronclient
+     python-neutronclient \
+     pylint
+   ~~~
+
+   ~~~ sh
+   sudo gem install mdl
    ~~~

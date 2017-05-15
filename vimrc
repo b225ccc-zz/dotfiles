@@ -52,10 +52,13 @@ filetype plugin indent on	      " turn filetype detection back on
 let mapleader = ","		          " set leader prefix
 
 if has('gui_running')
-  set background=dark
-  colorscheme solarized
+  "set background=dark
+  "colorscheme solarized
 else
-  colorscheme zenburn
+  "set background=light
+  "set background=dark
+  "colorscheme solarized
+  colorscheme darktango
 endif
 
 set cursorline			            " highlight current line
@@ -105,13 +108,13 @@ let g:UltiSnipsJumpBackwardTrigger="<c-h>"
 let g:vim_markdown_folding_disabled=1
 
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 0
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
+"let g:syntastic_always_populate_loc_list = 0
+"let g:syntastic_auto_loc_list = 1
+"let g:syntastic_check_on_open = 0
+"let g:syntastic_check_on_wq = 0
 
 " key maps
 nmap <leader>fef ggVG=                          " format entire file
@@ -135,3 +138,5 @@ noremap <Right> <NOP>
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+inoremap # X#

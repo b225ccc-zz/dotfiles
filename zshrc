@@ -21,6 +21,7 @@ alias la='ls -A'
 alias l='ls -CF'
 #alias h='history'
 alias repos='cd ~/Documents/repos'
+alias code='cd ~/Documents/repos'
 alias f.='find .'
 
 alias gs='git status'
@@ -68,4 +69,17 @@ function prompt_char {
   if [ $UID -eq 0 ]; then echo "#"; else echo '>'; fi
 }
 #PROMPT='%~$(git_super_status) $(prompt_char) '
-PROMPT='%{$fg[green]%}%~%{$reset_color%}$(git_super_status) %{$fg[green]%}$(prompt_char)%{$reset_color%} '
+
+#PROMPT='%{$fg[green]%}%~%{$reset_color%}$(git_super_status) %{$fg[green]%}$(prompt_char)%{$reset_color%} '
+PROMPT='%{$fg[blue]%}%~%{$reset_color%}$(git_super_status) %{$fg[blue]%}$(prompt_char)%{$reset_color%} '
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+export PROMPT_COMMAND="~/Documents/repos/iterm_window_name/iterm_window_name.sh"
+
+#promptcmd() { eval "$PROMPT_COMMAND" }
+promptcmd() { eval "$PROMPT_COMMAND" }
+precmd_functions+=(promptcmd)
+
+WORKON_HOME=~/.virtualenvs
+source $(which virtualenvwrapper.sh)
